@@ -11,6 +11,7 @@ namespace ConsoleTesting
         public int EmpID { get; set; }
         public string Name { get; set; }
         public int DepID { get; set; }
+        public string Mob {get;set;}
 
         public static List<Employee1> getAllEmployee()
         {
